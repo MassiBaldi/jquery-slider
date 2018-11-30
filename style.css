@@ -19,7 +19,11 @@
 }
 .wrap img {
   height: 100%;
-  /* display: none; */
+  width: 100%;
+  display: none;
+}
+img.active {
+  display: inline-block;
 }
 .frecciasx, .frecciadx {
   position: absolute;
@@ -50,9 +54,6 @@
 .pallini i:hover, .frecciasx i:hover, .frecciadx i:hover {
   color: #0069ff
 }
-.activeColor {
+.pallini > i.active {
   color: #0069ff;
-}
-.active {
-  display: inline-block;
 }
